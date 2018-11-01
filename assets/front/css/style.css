@@ -1,0 +1,27 @@
+.pagination{
+	border-top: 3px solid #ce2429;
+	border-bottom: 3px solid #ce2429;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.pagination a,.pagination span.extend,.pagination span.current{
+	text-align: center;
+	margin-right: 3px;
+	color: #ce2429;
+	padding: 6px 10px 3px;
+}
+.pagination a:hover{
+	background-color: #000;
+	color: #fff;
+}
+.pagination span.current{
+	color: #FFF;
+	background-color: #ce2429;
+	padding: 4px 10px 6px;
+}
+.pagination .pages{
+	float: right;
+	display: block;
+	font-size: 85%;
+	padding: 7px 0px 2px;
+}
